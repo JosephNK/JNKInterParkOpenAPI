@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C785D5419D086F700F8CA27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D5319D086F700F8CA27 /* main.m */; };
+		7C785D5719D086F700F8CA27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D5619D086F700F8CA27 /* AppDelegate.m */; };
+		7C785D5D19D086F700F8CA27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C785D5B19D086F700F8CA27 /* Main.storyboard */; };
+		7C785D5F19D086F700F8CA27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C785D5E19D086F700F8CA27 /* Images.xcassets */; };
+		7C785D6219D086F700F8CA27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C785D6019D086F700F8CA27 /* LaunchScreen.xib */; };
+		7C785D6E19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI_iOS_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D6D19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI_iOS_ExampleTests.m */; };
+		7C785D9E19D0876600F8CA27 /* JNKAsyncURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D7E19D0876600F8CA27 /* JNKAsyncURLConnection.m */; };
+		7C785D9F19D0876600F8CA27 /* JNKBase64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D8519D0876600F8CA27 /* JNKBase64Transcoder.c */; };
+		7C785DA019D0876600F8CA27 /* JNKOAuth1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D8819D0876600F8CA27 /* JNKOAuth1.m */; };
+		7C785DA119D0876600F8CA27 /* NSString+JNKOAuth1Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D8B19D0876600F8CA27 /* NSString+JNKOAuth1Encoding.m */; };
+		7C785DA219D0876600F8CA27 /* JNKOAuth1Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D8E19D0876600F8CA27 /* JNKOAuth1Helper.m */; };
+		7C785DA319D0876600F8CA27 /* JNKOAuth1UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D9119D0876600F8CA27 /* JNKOAuth1UserDefaults.m */; };
+		7C785DA419D0876600F8CA27 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D9419D0876600F8CA27 /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C785DA519D0876600F8CA27 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D9519D0876600F8CA27 /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C785DA619D0876600F8CA27 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D9619D0876600F8CA27 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C785DA919D087AF00F8CA27 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C785DA819D087AF00F8CA27 /* libz.dylib */; };
+		7C785DAB19D087B500F8CA27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C785DAA19D087B500F8CA27 /* UIKit.framework */; };
+		7C785DAD19D087BA00F8CA27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C785DAC19D087BA00F8CA27 /* CoreGraphics.framework */; };
+		7C785DAF19D087C100F8CA27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C785DAE19D087C100F8CA27 /* Foundation.framework */; };
+		7C785DB819D0883700F8CA27 /* JNKInterParkBookSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785DB719D0883700F8CA27 /* JNKInterParkBookSearchViewController.m */; };
+		7C785DC619D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785DC119D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI.m */; };
+		7C785DC719D088A900F8CA27 /* JNKInterParkBookSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785DC519D088A900F8CA27 /* JNKInterParkBookSearchRequest.m */; };
+		7C785DD919D08A6700F8CA27 /* JNKInterParkBookSearchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785DD819D08A6700F8CA27 /* JNKInterParkBookSearchQuery.m */; };
+		7C785DDF19D08D0D00F8CA27 /* NSString+JNKInterParkURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785DDC19D08D0D00F8CA27 /* NSString+JNKInterParkURLEncode.m */; };
+		7C785DE019D08D0D00F8CA27 /* UIAlertView+JNKInterParkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785DDE19D08D0D00F8CA27 /* UIAlertView+JNKInterParkError.m */; };
+		7C785DE419D093B900F8CA27 /* JNKInterParkTBXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C785DE319D093B900F8CA27 /* JNKInterParkTBXMLParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C785D6819D086F700F8CA27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C785D4619D086F700F8CA27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C785D4D19D086F700F8CA27;
+			remoteInfo = "JNKInterParkBookSearchOpenAPI iOS Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C785D4E19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JNKInterParkBookSearchOpenAPI iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C785D5219D086F700F8CA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C785D5319D086F700F8CA27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C785D5519D086F700F8CA27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C785D5619D086F700F8CA27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C785D5C19D086F700F8CA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C785D5E19D086F700F8CA27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7C785D6119D086F700F8CA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7C785D6719D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JNKInterParkBookSearchOpenAPI iOS ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C785D6C19D086F700F8CA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C785D6D19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI_iOS_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNKInterParkBookSearchOpenAPI_iOS_ExampleTests.m; sourceTree = "<group>"; };
+		7C785D7D19D0876600F8CA27 /* JNKAsyncURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKAsyncURLConnection.h; sourceTree = "<group>"; };
+		7C785D7E19D0876600F8CA27 /* JNKAsyncURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKAsyncURLConnection.m; sourceTree = "<group>"; };
+		7C785D8019D0876600F8CA27 /* JNKARCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKARCMacro.h; sourceTree = "<group>"; };
+		7C785D8119D0876600F8CA27 /* JNKLogMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKLogMacro.h; sourceTree = "<group>"; };
+		7C785D8219D0876600F8CA27 /* JNKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKMacro.h; sourceTree = "<group>"; };
+		7C785D8519D0876600F8CA27 /* JNKBase64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JNKBase64Transcoder.c; sourceTree = "<group>"; };
+		7C785D8619D0876600F8CA27 /* JNKBase64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKBase64Transcoder.h; sourceTree = "<group>"; };
+		7C785D8719D0876600F8CA27 /* JNKOAuth1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKOAuth1.h; sourceTree = "<group>"; };
+		7C785D8819D0876600F8CA27 /* JNKOAuth1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKOAuth1.m; sourceTree = "<group>"; };
+		7C785D8A19D0876600F8CA27 /* NSString+JNKOAuth1Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JNKOAuth1Encoding.h"; sourceTree = "<group>"; };
+		7C785D8B19D0876600F8CA27 /* NSString+JNKOAuth1Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JNKOAuth1Encoding.m"; sourceTree = "<group>"; };
+		7C785D8D19D0876600F8CA27 /* JNKOAuth1Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKOAuth1Helper.h; sourceTree = "<group>"; };
+		7C785D8E19D0876600F8CA27 /* JNKOAuth1Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKOAuth1Helper.m; sourceTree = "<group>"; };
+		7C785D9019D0876600F8CA27 /* JNKOAuth1UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKOAuth1UserDefaults.h; sourceTree = "<group>"; };
+		7C785D9119D0876600F8CA27 /* JNKOAuth1UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKOAuth1UserDefaults.m; sourceTree = "<group>"; };
+		7C785D9419D0876600F8CA27 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		7C785D9519D0876600F8CA27 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		7C785D9619D0876600F8CA27 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		7C785D9819D0876600F8CA27 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		7C785D9919D0876600F8CA27 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		7C785D9A19D0876600F8CA27 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		7C785D9C19D0876600F8CA27 /* TBXML-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		7C785D9D19D0876600F8CA27 /* TBXML-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-Prefix.pch"; sourceTree = "<group>"; };
+		7C785DA819D087AF00F8CA27 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7C785DAA19D087B500F8CA27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C785DAC19D087BA00F8CA27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C785DAE19D087C100F8CA27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C785DB619D0883700F8CA27 /* JNKInterParkBookSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKInterParkBookSearchViewController.h; sourceTree = "<group>"; };
+		7C785DB719D0883700F8CA27 /* JNKInterParkBookSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKInterParkBookSearchViewController.m; sourceTree = "<group>"; };
+		7C785DBE19D088A900F8CA27 /* JNKInterParkBookOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKInterParkBookOpenAPI.h; sourceTree = "<group>"; };
+		7C785DC019D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKInterParkBookSearchOpenAPI.h; sourceTree = "<group>"; };
+		7C785DC119D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKInterParkBookSearchOpenAPI.m; sourceTree = "<group>"; };
+		7C785DC419D088A900F8CA27 /* JNKInterParkBookSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKInterParkBookSearchRequest.h; sourceTree = "<group>"; };
+		7C785DC519D088A900F8CA27 /* JNKInterParkBookSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKInterParkBookSearchRequest.m; sourceTree = "<group>"; };
+		7C785DC819D088BF00F8CA27 /* JNKInterParkOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKInterParkOpenAPI.h; sourceTree = "<group>"; };
+		7C785DCB19D0891C00F8CA27 /* JNKInterParkOpenAPIConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKInterParkOpenAPIConf.h; sourceTree = "<group>"; };
+		7C785DD719D08A6700F8CA27 /* JNKInterParkBookSearchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKInterParkBookSearchQuery.h; sourceTree = "<group>"; };
+		7C785DD819D08A6700F8CA27 /* JNKInterParkBookSearchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKInterParkBookSearchQuery.m; sourceTree = "<group>"; };
+		7C785DDB19D08D0D00F8CA27 /* NSString+JNKInterParkURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JNKInterParkURLEncode.h"; sourceTree = "<group>"; };
+		7C785DDC19D08D0D00F8CA27 /* NSString+JNKInterParkURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JNKInterParkURLEncode.m"; sourceTree = "<group>"; };
+		7C785DDD19D08D0D00F8CA27 /* UIAlertView+JNKInterParkError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+JNKInterParkError.h"; sourceTree = "<group>"; };
+		7C785DDE19D08D0D00F8CA27 /* UIAlertView+JNKInterParkError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+JNKInterParkError.m"; sourceTree = "<group>"; };
+		7C785DE219D093B900F8CA27 /* JNKInterParkTBXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKInterParkTBXMLParser.h; sourceTree = "<group>"; };
+		7C785DE319D093B900F8CA27 /* JNKInterParkTBXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKInterParkTBXMLParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C785D4B19D086F700F8CA27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C785DAF19D087C100F8CA27 /* Foundation.framework in Frameworks */,
+				7C785DAD19D087BA00F8CA27 /* CoreGraphics.framework in Frameworks */,
+				7C785DAB19D087B500F8CA27 /* UIKit.framework in Frameworks */,
+				7C785DA919D087AF00F8CA27 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C785D6419D086F700F8CA27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C785D4519D086F700F8CA27 = {
+			isa = PBXGroup;
+			children = (
+				7C785D7A19D0876600F8CA27 /* Vendor */,
+				7C785D7719D0876600F8CA27 /* Source */,
+				7C785D5019D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS Example */,
+				7C785DA719D0877400F8CA27 /* Frameworks */,
+				7C785D6A19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS ExampleTests */,
+				7C785D4F19D086F700F8CA27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C785D4F19D086F700F8CA27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D4E19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS Example.app */,
+				7C785D6719D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C785D5019D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D5519D086F700F8CA27 /* AppDelegate.h */,
+				7C785D5619D086F700F8CA27 /* AppDelegate.m */,
+				7C785DB619D0883700F8CA27 /* JNKInterParkBookSearchViewController.h */,
+				7C785DB719D0883700F8CA27 /* JNKInterParkBookSearchViewController.m */,
+				7C785D5B19D086F700F8CA27 /* Main.storyboard */,
+				7C785D5E19D086F700F8CA27 /* Images.xcassets */,
+				7C785D6019D086F700F8CA27 /* LaunchScreen.xib */,
+				7C785D5119D086F700F8CA27 /* Supporting Files */,
+			);
+			path = "JNKInterParkBookSearchOpenAPI iOS Example";
+			sourceTree = "<group>";
+		};
+		7C785D5119D086F700F8CA27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D5219D086F700F8CA27 /* Info.plist */,
+				7C785D5319D086F700F8CA27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C785D6A19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D6D19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI_iOS_ExampleTests.m */,
+				7C785D6B19D086F700F8CA27 /* Supporting Files */,
+			);
+			path = "JNKInterParkBookSearchOpenAPI iOS ExampleTests";
+			sourceTree = "<group>";
+		};
+		7C785D6B19D086F700F8CA27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D6C19D086F700F8CA27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C785D7719D0876600F8CA27 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DE119D093B100F8CA27 /* JNKInterParkTBXMLParser */,
+				7C785DDA19D08D0D00F8CA27 /* JNKInterParkCategory */,
+				7C785DBC19D088A900F8CA27 /* JNKInterParkOpenAPI */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		7C785D7A19D0876600F8CA27 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D7B19D0876600F8CA27 /* JNKLibrary */,
+				7C785D9219D0876600F8CA27 /* TBXML */,
+			);
+			name = Vendor;
+			path = ../Vendor;
+			sourceTree = "<group>";
+		};
+		7C785D7B19D0876600F8CA27 /* JNKLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D7C19D0876600F8CA27 /* JNKAsyncURLConnection */,
+				7C785D7F19D0876600F8CA27 /* JNKMacro */,
+				7C785D8319D0876600F8CA27 /* JNKOAuth1 */,
+			);
+			path = JNKLibrary;
+			sourceTree = "<group>";
+		};
+		7C785D7C19D0876600F8CA27 /* JNKAsyncURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D7D19D0876600F8CA27 /* JNKAsyncURLConnection.h */,
+				7C785D7E19D0876600F8CA27 /* JNKAsyncURLConnection.m */,
+			);
+			path = JNKAsyncURLConnection;
+			sourceTree = "<group>";
+		};
+		7C785D7F19D0876600F8CA27 /* JNKMacro */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D8019D0876600F8CA27 /* JNKARCMacro.h */,
+				7C785D8119D0876600F8CA27 /* JNKLogMacro.h */,
+				7C785D8219D0876600F8CA27 /* JNKMacro.h */,
+			);
+			path = JNKMacro;
+			sourceTree = "<group>";
+		};
+		7C785D8319D0876600F8CA27 /* JNKOAuth1 */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D8419D0876600F8CA27 /* JNKBase64Transcoder */,
+				7C785D8719D0876600F8CA27 /* JNKOAuth1.h */,
+				7C785D8819D0876600F8CA27 /* JNKOAuth1.m */,
+				7C785D8919D0876600F8CA27 /* JNKOAuth1Category */,
+				7C785D8C19D0876600F8CA27 /* JNKOAuth1Helper */,
+				7C785D8F19D0876600F8CA27 /* JNKOAuth1UserDefaults */,
+			);
+			path = JNKOAuth1;
+			sourceTree = "<group>";
+		};
+		7C785D8419D0876600F8CA27 /* JNKBase64Transcoder */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D8519D0876600F8CA27 /* JNKBase64Transcoder.c */,
+				7C785D8619D0876600F8CA27 /* JNKBase64Transcoder.h */,
+			);
+			path = JNKBase64Transcoder;
+			sourceTree = "<group>";
+		};
+		7C785D8919D0876600F8CA27 /* JNKOAuth1Category */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D8A19D0876600F8CA27 /* NSString+JNKOAuth1Encoding.h */,
+				7C785D8B19D0876600F8CA27 /* NSString+JNKOAuth1Encoding.m */,
+			);
+			path = JNKOAuth1Category;
+			sourceTree = "<group>";
+		};
+		7C785D8C19D0876600F8CA27 /* JNKOAuth1Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D8D19D0876600F8CA27 /* JNKOAuth1Helper.h */,
+				7C785D8E19D0876600F8CA27 /* JNKOAuth1Helper.m */,
+			);
+			path = JNKOAuth1Helper;
+			sourceTree = "<group>";
+		};
+		7C785D8F19D0876600F8CA27 /* JNKOAuth1UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D9019D0876600F8CA27 /* JNKOAuth1UserDefaults.h */,
+				7C785D9119D0876600F8CA27 /* JNKOAuth1UserDefaults.m */,
+			);
+			path = JNKOAuth1UserDefaults;
+			sourceTree = "<group>";
+		};
+		7C785D9219D0876600F8CA27 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D9319D0876600F8CA27 /* TBXML-Code */,
+				7C785D9719D0876600F8CA27 /* TBXML-Headers */,
+				7C785D9B19D0876600F8CA27 /* TBXML-Support */,
+			);
+			path = TBXML;
+			sourceTree = "<group>";
+		};
+		7C785D9319D0876600F8CA27 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D9419D0876600F8CA27 /* TBXML+Compression.m */,
+				7C785D9519D0876600F8CA27 /* TBXML+HTTP.m */,
+				7C785D9619D0876600F8CA27 /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = "<group>";
+		};
+		7C785D9719D0876600F8CA27 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D9819D0876600F8CA27 /* TBXML+Compression.h */,
+				7C785D9919D0876600F8CA27 /* TBXML+HTTP.h */,
+				7C785D9A19D0876600F8CA27 /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
+			sourceTree = "<group>";
+		};
+		7C785D9B19D0876600F8CA27 /* TBXML-Support */ = {
+			isa = PBXGroup;
+			children = (
+				7C785D9C19D0876600F8CA27 /* TBXML-iOS-Prefix.pch */,
+				7C785D9D19D0876600F8CA27 /* TBXML-Prefix.pch */,
+			);
+			path = "TBXML-Support";
+			sourceTree = "<group>";
+		};
+		7C785DA719D0877400F8CA27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DAE19D087C100F8CA27 /* Foundation.framework */,
+				7C785DAC19D087BA00F8CA27 /* CoreGraphics.framework */,
+				7C785DAA19D087B500F8CA27 /* UIKit.framework */,
+				7C785DA819D087AF00F8CA27 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C785DBC19D088A900F8CA27 /* JNKInterParkOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DBD19D088A900F8CA27 /* JNKInterParkBookOpenAPI */,
+				7C785DCB19D0891C00F8CA27 /* JNKInterParkOpenAPIConf.h */,
+				7C785DC819D088BF00F8CA27 /* JNKInterParkOpenAPI.h */,
+			);
+			path = JNKInterParkOpenAPI;
+			sourceTree = "<group>";
+		};
+		7C785DBD19D088A900F8CA27 /* JNKInterParkBookOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DC219D088A900F8CA27 /* JNKInterParkBookSearchQuery */,
+				7C785DC319D088A900F8CA27 /* JNKInterParkBookSearchRequest */,
+				7C785DBF19D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI */,
+				7C785DBE19D088A900F8CA27 /* JNKInterParkBookOpenAPI.h */,
+			);
+			path = JNKInterParkBookOpenAPI;
+			sourceTree = "<group>";
+		};
+		7C785DBF19D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DC019D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI.h */,
+				7C785DC119D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI.m */,
+			);
+			path = JNKInterParkBookSearchOpenAPI;
+			sourceTree = "<group>";
+		};
+		7C785DC219D088A900F8CA27 /* JNKInterParkBookSearchQuery */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DD719D08A6700F8CA27 /* JNKInterParkBookSearchQuery.h */,
+				7C785DD819D08A6700F8CA27 /* JNKInterParkBookSearchQuery.m */,
+			);
+			path = JNKInterParkBookSearchQuery;
+			sourceTree = "<group>";
+		};
+		7C785DC319D088A900F8CA27 /* JNKInterParkBookSearchRequest */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DC419D088A900F8CA27 /* JNKInterParkBookSearchRequest.h */,
+				7C785DC519D088A900F8CA27 /* JNKInterParkBookSearchRequest.m */,
+			);
+			path = JNKInterParkBookSearchRequest;
+			sourceTree = "<group>";
+		};
+		7C785DDA19D08D0D00F8CA27 /* JNKInterParkCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DDB19D08D0D00F8CA27 /* NSString+JNKInterParkURLEncode.h */,
+				7C785DDC19D08D0D00F8CA27 /* NSString+JNKInterParkURLEncode.m */,
+				7C785DDD19D08D0D00F8CA27 /* UIAlertView+JNKInterParkError.h */,
+				7C785DDE19D08D0D00F8CA27 /* UIAlertView+JNKInterParkError.m */,
+			);
+			name = JNKInterParkCategory;
+			path = JNKInterParkOpenAPI/JNKInterParkCategory;
+			sourceTree = "<group>";
+		};
+		7C785DE119D093B100F8CA27 /* JNKInterParkTBXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				7C785DE219D093B900F8CA27 /* JNKInterParkTBXMLParser.h */,
+				7C785DE319D093B900F8CA27 /* JNKInterParkTBXMLParser.m */,
+			);
+			name = JNKInterParkTBXMLParser;
+			path = JNKInterParkOpenAPI/JNKInterParkTBXMLParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C785D4D19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C785D7119D086F700F8CA27 /* Build configuration list for PBXNativeTarget "JNKInterParkBookSearchOpenAPI iOS Example" */;
+			buildPhases = (
+				7C785D4A19D086F700F8CA27 /* Sources */,
+				7C785D4B19D086F700F8CA27 /* Frameworks */,
+				7C785D4C19D086F700F8CA27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JNKInterParkBookSearchOpenAPI iOS Example";
+			productName = "JNKInterParkBookSearchOpenAPI iOS Example";
+			productReference = 7C785D4E19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C785D6619D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C785D7419D086F700F8CA27 /* Build configuration list for PBXNativeTarget "JNKInterParkBookSearchOpenAPI iOS ExampleTests" */;
+			buildPhases = (
+				7C785D6319D086F700F8CA27 /* Sources */,
+				7C785D6419D086F700F8CA27 /* Frameworks */,
+				7C785D6519D086F700F8CA27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C785D6919D086F700F8CA27 /* PBXTargetDependency */,
+			);
+			name = "JNKInterParkBookSearchOpenAPI iOS ExampleTests";
+			productName = "JNKInterParkBookSearchOpenAPI iOS ExampleTests";
+			productReference = 7C785D6719D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C785D4619D086F700F8CA27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = JosephNK;
+				TargetAttributes = {
+					7C785D4D19D086F700F8CA27 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					7C785D6619D086F700F8CA27 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 7C785D4D19D086F700F8CA27;
+					};
+				};
+			};
+			buildConfigurationList = 7C785D4919D086F700F8CA27 /* Build configuration list for PBXProject "JNKInterParkBookSearchOpenAPI iOS Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C785D4519D086F700F8CA27;
+			productRefGroup = 7C785D4F19D086F700F8CA27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C785D4D19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS Example */,
+				7C785D6619D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C785D4C19D086F700F8CA27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C785D5D19D086F700F8CA27 /* Main.storyboard in Resources */,
+				7C785D6219D086F700F8CA27 /* LaunchScreen.xib in Resources */,
+				7C785D5F19D086F700F8CA27 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C785D6519D086F700F8CA27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C785D4A19D086F700F8CA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C785DE419D093B900F8CA27 /* JNKInterParkTBXMLParser.m in Sources */,
+				7C785DA519D0876600F8CA27 /* TBXML+HTTP.m in Sources */,
+				7C785DA419D0876600F8CA27 /* TBXML+Compression.m in Sources */,
+				7C785DA219D0876600F8CA27 /* JNKOAuth1Helper.m in Sources */,
+				7C785DE019D08D0D00F8CA27 /* UIAlertView+JNKInterParkError.m in Sources */,
+				7C785DA019D0876600F8CA27 /* JNKOAuth1.m in Sources */,
+				7C785D5719D086F700F8CA27 /* AppDelegate.m in Sources */,
+				7C785DB819D0883700F8CA27 /* JNKInterParkBookSearchViewController.m in Sources */,
+				7C785DD919D08A6700F8CA27 /* JNKInterParkBookSearchQuery.m in Sources */,
+				7C785D9F19D0876600F8CA27 /* JNKBase64Transcoder.c in Sources */,
+				7C785DDF19D08D0D00F8CA27 /* NSString+JNKInterParkURLEncode.m in Sources */,
+				7C785DC719D088A900F8CA27 /* JNKInterParkBookSearchRequest.m in Sources */,
+				7C785DC619D088A900F8CA27 /* JNKInterParkBookSearchOpenAPI.m in Sources */,
+				7C785D9E19D0876600F8CA27 /* JNKAsyncURLConnection.m in Sources */,
+				7C785DA319D0876600F8CA27 /* JNKOAuth1UserDefaults.m in Sources */,
+				7C785DA619D0876600F8CA27 /* TBXML.m in Sources */,
+				7C785DA119D0876600F8CA27 /* NSString+JNKOAuth1Encoding.m in Sources */,
+				7C785D5419D086F700F8CA27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C785D6319D086F700F8CA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C785D6E19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI_iOS_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C785D6919D086F700F8CA27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C785D4D19D086F700F8CA27 /* JNKInterParkBookSearchOpenAPI iOS Example */;
+			targetProxy = 7C785D6819D086F700F8CA27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C785D5B19D086F700F8CA27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C785D5C19D086F700F8CA27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C785D6019D086F700F8CA27 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C785D6119D086F700F8CA27 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C785D6F19D086F700F8CA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C785D7019D086F700F8CA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C785D7219D086F700F8CA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JNKInterParkBookSearchOpenAPI iOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C785D7319D086F700F8CA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JNKInterParkBookSearchOpenAPI iOS Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7C785D7519D086F700F8CA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JNKInterParkBookSearchOpenAPI iOS ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JNKInterParkBookSearchOpenAPI iOS Example.app/JNKInterParkBookSearchOpenAPI iOS Example";
+			};
+			name = Debug;
+		};
+		7C785D7619D086F700F8CA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JNKInterParkBookSearchOpenAPI iOS ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JNKInterParkBookSearchOpenAPI iOS Example.app/JNKInterParkBookSearchOpenAPI iOS Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C785D4919D086F700F8CA27 /* Build configuration list for PBXProject "JNKInterParkBookSearchOpenAPI iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C785D6F19D086F700F8CA27 /* Debug */,
+				7C785D7019D086F700F8CA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C785D7119D086F700F8CA27 /* Build configuration list for PBXNativeTarget "JNKInterParkBookSearchOpenAPI iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C785D7219D086F700F8CA27 /* Debug */,
+				7C785D7319D086F700F8CA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C785D7419D086F700F8CA27 /* Build configuration list for PBXNativeTarget "JNKInterParkBookSearchOpenAPI iOS ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C785D7519D086F700F8CA27 /* Debug */,
+				7C785D7619D086F700F8CA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C785D4619D086F700F8CA27 /* Project object */;
+}
