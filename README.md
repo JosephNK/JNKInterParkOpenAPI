@@ -9,6 +9,10 @@ http://book.interpark.com/bookPark/html/bookpinion/api_main.html
 
 * `JNKInterParkOpenAPI`
   - `JNKInterParkOpenAPIConf.h`::InterParkOpenAPIKey : `[인터파크 Open API key]` 설정
+
+## Use TBXML
+- Use TBXML :  http://www.tbxml.co.uk/TBXML/TBXML_Free.html 참고.
+- Use not TBXML : `TBXML`, `JNKInterParkTBXMLParser` 폴더 삭제.
   
 ## Support
 
