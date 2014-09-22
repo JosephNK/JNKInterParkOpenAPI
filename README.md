@@ -3,7 +3,7 @@ JNKInterParkOpenAPI
 
 인터파크 오픈 API(InterPark Open API)를 iOS에서 보다 쉽게 사용할 수 있게 하기 위해 공유 하고자 합니다.
 
-http://blog.aladin.co.kr/openapi
+http://book.interpark.com/bookPark/html/bookpinion/api_main.html
 
 ## Setup
 
